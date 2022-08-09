@@ -38,6 +38,7 @@
                     <h2 class="contact-head">Get in Touch</h2>
                     <p> let's talk about your project !</p>
                     <form name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="email" value="Sales inquiry from mysitename.netlify.app" />
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
@@ -60,6 +61,9 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">I want you to work on project with
                                 me</label>
+                        </div>
+                        <div class="mb-3">
+                           <div data-netlify-recaptcha="true"></div>
                         </div>
                         <button type="submit" class="btn">Submit</button>
                         <!-- <input type="hidden" name="_url" value="https://My Portpolio Website.co/contact.html"> -->
