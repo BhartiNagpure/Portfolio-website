@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My Portpolio Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <span class="logo">
+                    <span>
+                        <h2>Bh</h2>
+                    </span>
+                    <span>arti</span>
+                </span>
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/intro.html">MyIntro</a></li>
+                <li><a  href="/services.html">Services</a></li>
+                <li><a  href="/projects.html">Projects</a></li>
+                <li><a  href="/contact.html">Contact </a></li>
+
+            </ul>
+        </nav>
+        <div class="main">
+            <div class="contact-form">
+                <div class="contact-group">
+                    <h2 class="contact-head">Get in Touch</h2>
+                    <p> let's talk about your project !</p>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="phone" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4"></textarea>
+                        </div>
+                        <div class="mb-3" id="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I want you to work on project with
+                                me</label>
+                        </div>
+                        <button type="submit" class="btn">Submit</button>
+                        <!-- <input type="hidden" name="_url" value="https://My Portpolio Website.co/contact.html"> -->
+
+
+                    </form>
+                </div>
+                <div class="contact-png">
+                    <h2>Follow Me</h2>
+                    <p>on my below account i'd love to hear from you! Leave a message and i will get in touch with you
+                        shortly.</p>
+                    <div class="png">
+                        <a href="https://www.linkedin.com/in/bharti-nagpure-2aa1bb233" target="_blank"> <img src="images/linkedin.png" alt="contact logo" /></a>
+                        <a href="https://www.instagram.com/bhartinagpure2409/" target="_blank"><img
+                                src="images/instagrampng.jfif" alt="contact logo" /></a>
+                        <a href="https://github.com/BhartiNagpure" target="_blank"> <img src="images/githublogo.png"
+                                alt="contact logo" /></a>
+                        <div class="contact-direct">
+                            <div>
+                                <img src="images/mbl.png" alt="contact logo" />
+                                <p>+91 9307612055</p>
+                            </div>
+                            <div>
+                                <img src="images/emaillogo.png" alt="contact logo" />
+                                <p>bhartinagpure2409@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script src='script.js'></script>
+</body>
+</html>

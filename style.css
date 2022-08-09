@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@500&family=Roboto+Mono:wght@200&family=Source+Code+Pro:wght@200&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+nav {
+  position: sticky;
+}
+
+span {
+  float: right;
+  color: hwb(39 33% 1%);
+}
+
+span h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+  margin-top: 35px;
+  padding-right: 566px;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo h2 {
+  color: rgb(31, 223, 31);
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  float: right;
+  margin-right: 85px;
+}
+nav ul li {
+  position: relative;
+  margin: 35px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+  li a.active::after{
+    position:absolute;
+    content: " ";
+    height:3px;
+  width: 100%;
+  left: 0;
+  bottom:-6px;
+  background-color: rgb(38, 192, 38);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  animation:appear 0.5s linear;
+}
+@keyframes appear {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.Info {
+  justify-content: space-around;
+  display: flex;
+  width: 80%;
+  height: 60vh;
+  margin: 0px auto;
+  padding: 50px;
+}
+
+.dev-Info {
+  width: 500px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 34px;
+}
+
+.hey {
+  font-size: 40px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  color: rgb(24, 182, 24);
+}
+
+.about {
+  font-size: 26px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.more-about {
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  margin: 30px 8px 20px -4px;
+  padding: 7px 15px;
+  background: linear-gradient(to right,green ,rgb(155, 208, 42));
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: green;
+}
+
+.dev-pic img {
+  height: 60vh;
+  width: 30vw;
+
+}
+
+.my-intro {
+  justify-content: space-around;
+  display: flex;
+  width: 80%;
+  height: 60vh;
+  margin: 0px auto;
+  padding: 60px;
+}
+
+.intro {
+  width: 600px;
+  padding-left: 30px;
+}
+
+.intro h3 {
+  padding-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: light;
+}
+
+.level {
+  width: 150px;
+  height: 4px;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  margin: 3px 18px;
+}
+.level1, .level2, .level3{
+  border: 0.5px solid red;
+  background-color: red;
+  height: 2px;
+}
+.level1{
+  width: 100px;
+}
+.level2 {
+  width: 145px;
+}
+
+.level3 {
+  width: 135px;
+}
+
+#course,
+#language,
+#achievement,
+#personality {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  color: rgb(27, 182, 19);
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 10px;
+}
+
+.intro ul {
+  display: flex;
+  list-style: none;
+  margin-left: -20px;
+}
+
+.intro ul li {
+  position: relative;
+  margin: 20px;
+  font-size: 18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.intro li{
+  font-family: 'Courier New', Courier, monospace;
+}
+ .intro ul li a.active2::after{
+    position:absolute;
+    content: " ";
+    height:3px;
+  width: 100%;
+  left: 0;
+  bottom:-6px;
+  background-color: rgb(249, 152, 26);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  animation:appear 0.5s linear;
+}
+@keyframes appear {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.contact-form {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 60vh;
+  margin: 0px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 50px 0px;
+}
+
+.contact-form form div {
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#emailHelp {
+  font-size: 10px;
+  color: rgb(161, 194, 194);
+}
+
+.contact-form form div input {
+  width: 360px;
+  margin: 5px 0 0;
+  border-radius: 3px;
+}
+
+textarea {
+  margin: 6px 0;
+  border-color: black;
+  box-shadow: 1px 1px 1px 1px rgb(132, 135, 136);
+}
+
+#form-check {
+  flex-direction: row;
+  margin: -9px -28px;
+  padding: 15px;
+}
+
+#form-check input {
+  width: 40px;
+}
+
+.png img {
+  width: 64px;
+  height: 64px;
+  margin: 30px;
+}
+
+.contact-png {
+  width: 400px;
+
+}
+
+.contact-direct {
+  padding-top: 25px;
+
+}
+
+.contact-direct img {
+  margin-top: -6px;
+  width: 50px;
+  height: 45px;
+}
+
+.contact-direct div {
+  display: flex;
+}
+
+.projects-box {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.mini-project,.mini-project1, .mini-project2 {
+  width: 350px;
+  height: 320px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.mini-project h3,.mini-project1 h3,.mini-project2 h3 {
+  color: hwb(53 37% 18%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dots, .dots1, .dots2 {
+  display: inline;
+  color: white;
+  float: none;
+}
+
+.more, .more1, .more2{
+  display: none;
+  color: white;
+}
+.but{
+  margin: 20px 0px 0px 75px;
+}
+.myBtn, .myBtn1, .myBtn2{
+  font-size: 10px;
+  margin:7px;
+  padding: 5px;
+  width: 80px;
+  background: green;
+}
+
+.project-content h2 {
+  padding-left: 150px;
+  padding-top: 150px;
+}
+
+.projects-box img {
+  width: 350px;
+  height: 150px;
+}
+
+.next {
+  width: 80px;
+  margin-left: 600px;
+  background: black;
+  border: 1px solid gray;
+}
+.Hover:hover {
+  background: rgb(84, 74, 74);
+  box-shadow: 2px 2px 10px 0px;
+  transition: all 0.5s ease 0s;
+  padding: 8px 3px;
+  border-radius: 10px;
+}
