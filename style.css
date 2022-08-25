@@ -105,6 +105,7 @@ nav ul li {
 .about {
   font-size: 26px;
   font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
 }
 
 .more-about {

@@ -77,3 +77,6 @@ function myFunction2() {
         miniproject2.style.height="380px";
     }
 }
+
+
+

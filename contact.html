@@ -8,10 +8,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen and (max-width:1400px)"  href="phone.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,9 +25,9 @@
                 </span>
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="/intro.html">MyIntro</a></li>
-                <li><a  href="/services.html">Services</a></li>
-                <li><a  href="/projects.html">Projects</a></li>
-                <li><a  href="/contact.html">Contact </a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/contact.html">Contact </a></li>
 
             </ul>
         </nav>
@@ -37,8 +36,7 @@
                 <div class="contact-group">
                     <h2 class="contact-head">Get in Touch</h2>
                     <p> let's talk about your project !</p>
-                    <form name="contact" method="POST" data-netlify="true">
-                        <input type="hidden" name="email" value="Sales inquiry from mysitename.netlify.app" />
+                    <form id="contactForm">
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
@@ -62,9 +60,9 @@
                             <label class="form-check-label" for="exampleCheck1">I want you to work on project with
                                 me</label>
                         </div>
-                        <div class="mb-3">
+                        <!-- <div class="mb-3">
                            <div data-netlify-recaptcha="true"></div>
-                        </div>
+                        </div> -->
                         <button type="submit" class="btn">Submit</button>
                         <!-- <input type="hidden" name="_url" value="https://My Portpolio Website.co/contact.html"> -->
 
@@ -76,7 +74,8 @@
                     <p>on my below account i'd love to hear from you! Leave a message and i will get in touch with you
                         shortly.</p>
                     <div class="png">
-                        <a href="https://www.linkedin.com/in/bharti-nagpure-2aa1bb233" target="_blank"> <img src="images/linkedin.png" alt="contact logo" /></a>
+                        <a href="https://www.linkedin.com/in/bharti-nagpure-2aa1bb233" target="_blank"> <img
+                                src="images/linkedin.png" alt="contact logo" /></a>
                         <a href="https://www.instagram.com/bhartinagpure2409/" target="_blank"><img
                                 src="images/instagrampng.jfif" alt="contact logo" /></a>
                         <a href="https://github.com/BhartiNagpure" target="_blank"> <img src="images/githublogo.png"
@@ -97,6 +96,7 @@
         </div>
     </div>
     <script src=" https://smtpjs.com/v3/smtp.js"></script>
-<script src='script.js'></script>
+    <script src='script.js'></script>
 </body>
+
 </html>
