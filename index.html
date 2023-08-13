@@ -4,53 +4,354 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>My Portpolio Website</title>
+    <title>Bharti's Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" media="screen and (max-width:1400px)"  href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- <link rel="stylesheet" media="screen and (max-width:1400px)" href="phone.css"> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
-        <nav class="navbar">
-            <ul>
-                <span class="logo">
-                    <span>
-                        <h2>Bh</h2>
-                    </span>
-                    <span>arti</span>
-                </span>
-                <li ><a href="/" class="active">Home</a></li>
-                <li><a href="/intro.html">MyIntro</a></li>
-                <li><a href="/services.html">Services</a></li>
-                <li><a href="/projects.html">Projects</a></li>
-                <li><a href="/contact.html">Contact </a></li>
-            </ul>
-        </nav>
-        <div class="main">
-            <div class="Info">
-                <div class="dev-Info">
-                    <div class="hey">Hi, I am </div>
-                    <div class="name">Bharti Nagpure</div>
-                    <div class="about"> IT Engineer, Frontend Developer, Fresher</div>
-                    <div class="more-about">I'm an independent creative Web Designer and Developer from Nagpur,
-                        Maharastra.I enjoy creating user friendly websites. </div>
-                    <div class="btn">
-                        <a href="https://drive.google.com/file/d/14I6e-bNMPOBFZSddJzQd00EJ9MIcLQSK/view?usp=sharing"  download="CV" target="_blank"><button>Download CV</button></a>
-                        <a href="contact.html" target="_blank"><button>Contact Me</button></a>
+        <!-- header section design -->
+        <header class="header">
+            <a href="#" class="logo">BN<span>.</span></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <!-- home section design -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's me</h3>
+                <h2>Bharti Nagpure</h2>
+                <h3><span>Frontend Developer</span></h3>
+                <!-- <ul class="dynamic-text">
+                            <li><div class="postname">Frontend Developer</div></li>
+                        </ul>  -->
+                <p>
+                    Hello ! I'm Bharti, a passionate and driven Frontend Developer and open source contributor. With a
+                    background in Information
+                    Technology Engineering program. I truly enjoy working in a team and always willing to learn new
+                    things.
+                </p>
+                <div class="home-sci">
+                    <a href="https://github.com/BhartiNagpure" target="_blank"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nagpurebharti" target="_blank"><i
+                            class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/bhartinagpure2409/" target="_blank"><i
+                            class="bx bxl-instagram"></i></a>
+                    <a href="mailto:bhartinagpure2409@gmail.com" target="_blank"><i class="bx bx-envelope"></i></a>
+                </div>
+                <a class="btn"
+                    href="https://drive.google.com/file/d/1-p9OKZD_lXRXwJqZfHyJ6koYUc6C5Hk2/view?usp=sharing"
+                    download="" target="_blank">Download
+                    CV</a>
+                <a class="btn" href="#contact">Let's Talk</a>
+            </div>
+            <div class="dev-pic">
+                <img src="images/devpng.png" alt="developer image" />
+            </div>
+        </section>
+        <!-- about section design -->
+        <section class="about" id="about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <div class="about-img">
+                <img src="/images/bhartiphoto.jpeg" alt="" />
+                <span class="circle-spin"></span>
+            </div>
+            <div class="about-content">
+                <h3>Frontend Developer!</h3>
+                <p>
+                    Engaging actively within the open-source community has been a profoundly fulfilling journey. I
+                    firmly embrace the value of teamwork and find it imperative to contribute to the developer community
+                    that has provided me with a wealth of insights. By consistently dedicating my efforts to open-source
+                    projects, I continuously expand my learning horizons and exchange valuable perspectives with
+                    colleagues worldwide.
+                </p>
+                <p>
+                    I'm always excited to connect with fellow developers, designers, and
+                    enthusiasts. Whether it's discussing new ideas, collaborating on
+                    projects, or exploring opportunities, feel free to reach out to me.
+                    Together, we can make the web a more delightful and accessible place.
+                </p>
+
+                <p>
+                    Thank you for visiting my portfolio, and I look forward to sharing my
+                    journey with you!
+                </p>
+                <a class="btn"
+                    href="https://drive.google.com/file/d/1-p9OKZD_lXRXwJqZfHyJ6koYUc6C5Hk2/view?usp=sharing"
+                    download="" target="_blank">Download CV
+                </a>
+            </div>
+        </section>
+        <!-- education section design -->
+        <section class="education" id="education">
+            <h2 class="heading">My <span>Journey</span></h2>
+            <div class="education-row">
+                <div class="education-column">
+                    <h3 class="title">Education</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i>2019-2023</div>
+                                <h3>Bachelors Degree - RTMN University</h3>
+                                <p>
+                                    I earned my Bachelor's degree in
+                                    <b style="color:  #00f0e0">Information Technology</b> from
+                                    Tulsiramji Gaikwad Patil College of Engineering.Reflecting my
+                                    dedication to learning and excelling in my field of study.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i>2017-2019</div>
+                                <h3>HSSC</h3>
+                                <p>
+                                    I completed my Higher Secondary School Certificate (HSSC) from
+                                    Saraswati Kisan Vidyalaya Junior college Butibori, where I achieved <b
+                                        style="color: #00f0e0">score of 56.31%</b>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i>2017</div>
+                                <h3>SSC</h3>
+                                <p>
+                                    I completed my Secondary School Certificate (SSC) from Saraswati Kisan Vidyalaya
+                                    Butibori. During this crucial phase of my education, I achieved an immpressive <b
+                                        style="color:  #00f0e0">score of 80.80%</b>.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="dev-pic">
-                    <!-- <img src="images/devwomen.png.crdownload" alt="developer image" /> -->
+                <div class="education-column">
+                    <h3 class="title">Experience</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="bx bxs-calendar"></i>20 May - 10 Aug</div>
+                                <h3>Contributor - GirlScript Summer Of Code</h3>
+                                <ul>
+                                    <li>Open Source Contributor at GirlScript Summer of Code, a prestigious program
+                                        promoting diversity and inclusivity in the tech community.</li>
+                                    <li>Successfully raised and addressed <b style="color:  #00f0e0">numerous
+                                            issues</b>, demonstrating a keen eye for identifying and resolving
+                                        challenges in the <b style="color:  #00f0e0">React stack</b>.</li>
+                                    <li>Currently <b style="color:  #00f0e0">ranked 93 out of 1588 participants</b>,
+                                        reflecting dedication, perseverance, and a commitment to delivering high-quality
+                                        contributions.</li>
+                                    <li><a href="https://gssoc.girlscript.tech/leaderboard"><b
+                                                style="color:  #00f0e0">Link to Leaderboard (username
+                                                :BhartiNagpure)</b></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- skills-section -->
+
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="skills-row">
+                <div class="skills-column">
+                    <h3 class="title">Frontend Skills</h3>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>HTML <span>90%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>CSS <span>80%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>JavaScript <span>60%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>React <span>70%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Redux <span>20%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <h3 class="title">Familiar With</h3>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>Bootstrap <span>80%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Tailwind CSS <span>80%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Data Structures and Algorithms <span>10%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- project section design -->
+        <section class="projects" id="projects">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="container">
+                <div class="projects-card">
+                    <div class="img-box">
+                        <img src="images/movies.png">
+                    </div>
+                    <div class="content">
+                        <h2><span>Movies </span>App</h2>
+                        <p>It is an extensive collection of movies from all genres, spanning across decades of cinematic excellence. From timeless classics to the blockbusters.These apps often provide information about current & upcoming movies.
+                        </p>
+                        <div class="projects-btn">
+                            <a href="https:movies-zeta-sandy.vercel.app/" target="_blank">Live</a>
+                            <a href="https://github.com/BhartiNagpure/Movies.git" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <div class="img-box">
+                        <img src="images/cryptocurrency.png">
+                    </div>
+                    <div class="content">
+                        <h2><span>Cryptocurrency</span> App</h2>
+                        <p>This project is built to showcase all cryptocurrencies with their prizes in INR and USD and their market cap.
+                          These app shows details about coin along with historical graph of coin for 1day, 30days,3months and 1year.
+                        </p>
+                        <div class="projects-btn">
+                            <a href="https://bhartinagpure.github.io/Cryptocurrency/" target="_blank">Live</a>
+                            <a href="https://github.com/BhartiNagpure/Cryptocurrency.git" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <div class="img-box">
+                        <img src="images/restaurant.png">
+                    </div>
+                    <div class="content">
+                        <h2><span>Restaurant</span> Website</h2>
+                        <p>This website provides a centralized platform for customers to access important information about restaurant, such as location,time, menu, special dishes, and contact details. This information is available 24/7 and can be easily updated to reflect any changes.
+                        </p>
+                        <div class="projects-btn">
+                            <a href="https://restaurant-website-psi-six.vercel.app/" target="_blank">Live</a>
+                            <a href="https://github.com/BhartiNagpure/restaurant-website.git" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <div class="img-box">
+                        <img src="images/shortnote.png">
+                    </div>
+                    <div class="content">
+                        <h2><span>ShortNotes </span>App</h2>
+                        <p>This short note web app provides users with a convenient and efficient way to write quick thoughts, ideas, reminders, or important information.Web app ensures that users can access their short notes from any device
+                        </p>
+                        <div class="projects-btn">
+                            <a href="https://shortnote-web-app.netlify.app/" target="_blank">Live</a>
+                            <a href="https://github.com/BhartiNagpure/Short-Notes-Web-App.git"
+                                target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section design -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me !</span></h2>
+            <form  name="submit-to-google-sheet">
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" placeholder="Full Name" name="Name" required />
+                        <span class="focus"></span>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" placeholder="Email Address" name="Email" required />
+                        <span class="focus"></span>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="number" placeholder="Mobile Number" name="Mobile" required />
+                        <span class="focus"></span>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Email Subject" name="Subject" required />
+                        <span class="focus"></span>
+                    </div>
+                </div>
+                <div class="textarea-field">
+                    <textarea id="" cols="30" rows="10" placeholder="Your Message" name="Message"></textarea>
+                    <span class="focus"></span>
+                </div>
+                <button type="submit" class="btn">
+                    <i class='bx bx-send'></i> Send Message</button>
+            </form>
+            <span id="msg"></span>
+        </section>
+
+        <footer class="footer">
+            <a href="#" class="logo">BN<span>.</span></a>
+            <div class="footer-text">
+                <p> &copy; 2023 <span>&#x2764;</span> by Bharti Nagpure | All Rights Reserved</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+            </div>
+        </footer>
+
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="./script.js"></script>          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxRM5l0UEZ4vdTXj4QijNlh-_pFjbmx_TCY6Z6G8c_Ubvk52KXQpR_MkTcrUhmLNL1Oyg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML ="Message sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML =""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
     </div>
 </body>
-<script src='script.js'></script>
-
-</script>
 </html>
